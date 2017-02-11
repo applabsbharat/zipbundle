@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <FrameLayout
+        android:id="@+id/Frame_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <EditText
+            android:id="@+id/et_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="Full Name(*)"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:textColorHint="#737373"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textColor="#737373" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey"/>
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="Email(*)"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#737373"
+            android:maxLines="1"
+            android:inputType="textEmailAddress"
+            android:textColor="#737373" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey"/>
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="Password(*)"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#737373"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:textColor="#737373" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="Confirm Password(*)"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#737373"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:textColor="#737373"
+            android:id="@+id/et_confirm_pass" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey"/>
+
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorBlack"
+            android:padding="10dp"
+            android:text="Register"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
